@@ -44,6 +44,16 @@ namespace BiluthrningExercise
             van1.VanInfo();
 
 
+            Truck truck1 = new Truck();
+            truck1.Brand = "Volvo";
+            truck1.Model = "FH16";
+            truck1.Year = 2021;
+            truck1.Price = 11000;
+            truck1.PeriodInDays = 2;
+
+
+            truck1.TruckInfo();
+
 
         }
     }
