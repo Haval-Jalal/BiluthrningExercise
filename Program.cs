@@ -31,6 +31,8 @@ namespace BiluthrningExercise
 
 
             car1.CarInfo();
+            
+
 
 
             Van van1 = new Van();
@@ -44,6 +46,7 @@ namespace BiluthrningExercise
             van1.VanInfo();
 
 
+
             Truck truck1 = new Truck();
             truck1.Brand = "Volvo";
             truck1.Model = "FH16";
@@ -53,6 +56,11 @@ namespace BiluthrningExercise
 
 
             truck1.TruckInfo();
+
+
+            Maintance maintance1 = new Maintance();
+            maintance1.NextMaintance();
+            maintance1.LastMaintance();
 
 
         }
