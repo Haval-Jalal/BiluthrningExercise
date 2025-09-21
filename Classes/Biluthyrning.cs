@@ -13,7 +13,7 @@ namespace BiluthrningExercise.Classes
 
         public void DisplayInfo()
         {
-            Console.WriteLine($" Welocome to {Name} at {Adress} everyday {OpenHours}, feel free to call us at {Contact} ");
+            Console.WriteLine($"Welocome to {Name} at {Adress} everyday {OpenHours}, feel free to call us at {Contact} ");
         }
     }
 }
