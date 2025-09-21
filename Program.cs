@@ -33,6 +33,17 @@ namespace BiluthrningExercise
             car1.CarInfo();
 
 
+            Van van1 = new Van();
+            van1.Brand = "Mercedes-Benz";
+            van1.Model = "Sprinter";
+            van1.Year = 2023;
+            van1.Price = 3000;
+            van1.PeriodInDays = 2;
+
+
+            van1.VanInfo();
+
+
 
         }
     }
