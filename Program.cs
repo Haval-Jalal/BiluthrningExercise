@@ -19,6 +19,20 @@ namespace BiluthrningExercise
             company.DisplayInfo();
 
 
+            // Jag har skapat ett objekt av klassen Car som ärver från klassen Vehicle.
+            //Objektet har 5 attributer och en metod.
+
+            Car car1 = new Car();
+            car1.Brand = "Bmw";
+            car1.Model = "5 Series";
+            car1.Year = 2025;
+            car1.Price = 1500;
+            car1.PeriodInDays = 2;
+
+
+            car1.CarInfo();
+
+
 
         }
     }
